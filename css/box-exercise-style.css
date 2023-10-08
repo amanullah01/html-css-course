@@ -1,0 +1,12 @@
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.pagination-button {
+  padding: 10px 8px;
+}
+
+.page-no {
+  padding: 0 5px;
+}
