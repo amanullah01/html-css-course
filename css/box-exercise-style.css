@@ -25,3 +25,20 @@ label {
 .stretch:hover {
   padding: 20px 24px;
 }
+
+.shadow-button {
+  background-color: #027403;
+  color: white;
+  padding: 10px 12px;
+  font-size: 15px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  transition: margin-top 0.15s, margin-left 0.15s;
+}
+
+.shadow-button:active {
+  margin-top: 4px;
+  margin-left: 4px;
+  box-shadow: none;
+}
