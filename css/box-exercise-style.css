@@ -10,3 +10,18 @@ label {
 .page-no {
   padding: 0 5px;
 }
+
+.stretch {
+  background-color: #027403;
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: padding 0.5s;
+}
+
+.stretch:hover {
+  padding: 20px 24px;
+}
