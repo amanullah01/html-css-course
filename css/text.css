@@ -1,5 +1,5 @@
 p {
-  font-family: Arial;
+  font-family: Roboto;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -21,7 +21,7 @@ p {
   margin-bottom: 20px;
 }
 .video-description {
-  font-family: Arial;
+  font-family: Roboto;
   color: rgb(96, 96, 96);
   font-size: 14px;
   width: 280px;
