@@ -128,3 +128,28 @@
   padding: 8px 16px;
   border-radius: 16px;
 }
+
+.f-container {
+  font-family: Arial;
+}
+
+.f-container .amount {
+  font-size: 40px;
+}
+.f-container p .currency-name {
+  color: #605f60;
+  font-size: 18px;
+}
+
+.f-container .today-stat {
+  color: #49794d;
+}
+
+.f-container .next-amount {
+  color: #656465;
+  font-size: 18px;
+}
+.f-container .up-down {
+  color: #c94140;
+  font-size: 18px;
+}
