@@ -1,0 +1,20 @@
+.search-bar {
+  display: block;
+}
+
+.video-preview {
+  width: 300px;
+  display: inline-block;
+}
+.thumbnail {
+  width: 300px;
+  display: block;
+  /* height: 300px;
+  object-fit: contain;
+  object-position: top;
+  border: 1px solid red; */
+}
+
+.video-title {
+  width: 300px;
+}
