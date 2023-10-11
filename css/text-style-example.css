@@ -3,7 +3,7 @@
 }
 
 .a-container p {
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -17,14 +17,15 @@
 }
 
 .b-container .biggest-deal {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .b-container .sales-end {
-  color: #db3930;
+  color: red;
   font-style: italic;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -40,18 +41,18 @@
 .c-container .title {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 .c-container .sub-title {
   font-size: 16px;
-  color: #9e9c9e;
-  margin-bottom: 16px;
+  color: rgb(100, 100, 100);
+  margin-bottom: 18px;
 }
 
 .c-container .description {
   width: 300px;
-  line-height: 24px;
-  margin-bottom: 15px;
+  line-height: 22px;
+  margin-bottom: 18px;
 }
 
 .c-container button {
@@ -60,8 +61,7 @@
   color: white;
   padding: 8px 16px;
   font-weight: bold;
-  font-size: 15px;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
@@ -76,16 +76,17 @@
 }
 
 .d-container .title {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .d-container .sub-title {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .d-container .learn-more {
-  color: #41568c;
+  color: rgb(58, 108, 199);
 }
 
 .d-container .learn-more:hover {
@@ -103,58 +104,66 @@
 }
 
 .e-container .new {
-  color: #cf5014;
-  margin-bottom: 7px;
+  color: rgb(245, 99, 0);
+  margin-bottom: 10px;
 }
 
 .e-container .product {
   font-weight: bold;
-  font-size: 18px;
-  margin-bottom: 7px;
+  font-size: 24px;
+  margin-bottom: 5px;
 }
 .e-container .title {
   font-weight: bold;
-  font-size: 36px;
-  margin-bottom: 7px;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.e-container .price {
+  margin-bottom: 25px;
 }
 
 .e-container .buy-button {
-  margin-top: 10px;
-  background-color: #316fdd;
+  background-color: rgb(0, 113, 227);
   color: white;
   font-weight: bold;
   border: none;
   cursor: pointer;
-  padding: 8px 16px;
-  border-radius: 16px;
+  padding: 7px 15px;
+  border-radius: 30px;
 }
 
 .f-container {
   font-family: Arial;
 }
 
+.f-container p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .f-container .amount {
-  font-size: 40px;
+  font-size: 32px;
+  margin-bottom: 5px;
 }
 .f-container p .currency-name {
-  color: #605f60;
-  font-size: 18px;
+  color: rgb(100, 100, 100);
+  font-size: 16px;
 }
 
 .f-container .today-stat {
-  color: #49794d;
+  color: rgb(24, 128, 56);
+  margin-bottom: 8px;
 }
 
 .f-container .next-amount {
   color: #656465;
-  font-size: 18px;
 }
 .f-container .up-down {
   color: #c94140;
-  font-size: 18px;
 }
 
-.g-container {
+/* .g-container {
   font-family: Arial;
 }
 
@@ -183,4 +192,33 @@
 
 .g-container .outline .tag {
   color: #4571a4;
+} */
+
+.g-container p {
+  font-family: Arial;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.g-container.tweet-header {
+  margin-bottom: 5px;
+}
+
+.g-container .tweet-author {
+  font-weight: bold;
+}
+
+.g-container .tweet-info {
+  color: rgb(100, 100, 100);
+}
+
+.g-container .tweet {
+  width: 600px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.g-container .twitter-handle {
+  color: rgb(29, 155, 240);
 }
