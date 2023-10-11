@@ -64,3 +64,30 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.d-container {
+  font-family: Arial;
+  text-align: center;
+}
+
+.d-container p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.d-container .title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.d-container .sub-title {
+  margin-bottom: 15px;
+}
+.d-container .learn-more {
+  color: #41568c;
+}
+
+.d-container .learn-more:hover {
+  cursor: pointer;
+}
