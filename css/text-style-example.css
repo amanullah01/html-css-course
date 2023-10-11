@@ -153,3 +153,34 @@
   color: #c94140;
   font-size: 18px;
 }
+
+.g-container {
+  font-family: Arial;
+}
+
+.g-container p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.g-container .name-block {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.g-container .name-block .name {
+  font-weight: bold;
+}
+.g-container .name-block .username-time {
+  color: #9d9c9d;
+}
+
+.g-container .description {
+  width: 500px;
+  line-height: 24px;
+  margin-bottom: 18px;
+}
+
+.g-container .outline .tag {
+  color: #4571a4;
+}
