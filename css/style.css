@@ -12,11 +12,34 @@
 
 .c_card {
   border: 1px dotted black;
-  width: 500px;
+  width: 360px;
   padding-left: 15px;
   padding-bottom: 20px;
 }
 
 .c_card .title {
   font-family: Arial;
+}
+
+.d_card p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.d_card {
+  border: 1px solid black;
+  width: 360px;
+  padding: 20px 15px;
+  background-color: #1e1d1f;
+}
+
+.d_card .title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.d_card .sub-title {
+  color: rgb(160, 160, 160);
 }
