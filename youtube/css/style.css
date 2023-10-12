@@ -17,6 +17,20 @@
   border: 1px solid red; */
 }
 
+.channel-picture {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+.profile-picture {
+  width: 100%;
+}
+
+.video-info {
+  display: inline-block;
+  width: 200px;
+}
+
 .video-title {
-  width: 300px;
+  margin-top: 0;
 }
