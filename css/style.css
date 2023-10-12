@@ -9,3 +9,14 @@
   background-color: green;
   border-radius: 50px;
 }
+
+.c_card {
+  border: 1px dotted black;
+  width: 500px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
+
+.c_card .title {
+  font-family: Arial;
+}
